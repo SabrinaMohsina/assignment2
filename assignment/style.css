@@ -113,17 +113,30 @@ height: 322.94px;
 /* plants lover  starts  */
 .plants-lover{
     margin:100px 0;
+   
 }
 .plants-right{
     padding: 50px;
 }
 
-/* plants lover  ends */
 
+
+/* plants lover  ends */
+/* join section starts  */
+.join{
+    background-color: aquamarine;
+}
+.join-section{
+    background-image: url("./assets/news-letter-bg.png");
+}
 /* for mobile  */
-@media(max-width:768px){
-   .container{
+@media (max-width:768px){
+       .container{
   margin: 10px;
+
+   }
+ .nav-link{
+    visibility: hidden;
  }
  .banner {
     flex-direction: column-reverse;
@@ -146,5 +159,4 @@ height: 322.94px;
 .plants-lover{
      flex-direction: column;
 }
-
 }
