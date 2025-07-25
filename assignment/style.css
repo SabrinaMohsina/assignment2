@@ -123,15 +123,23 @@ height: 322.94px;
 
 /* plants lover  ends */
 /* join section starts  */
-.join{
-    background-color: aquamarine;
-}
-.join-section{
+
+aside{
     background-image: url("./assets/news-letter-bg.png");
+   
 }
-
-
-
+.join-content{
+    justify-content: center;
+    align-items: center;
+}
+aside button{
+    background-color: rgb(233, 90, 8);
+    color: black;
+    border: none;
+}
+input , button{
+    padding: 10px;
+}
 
 /* footer starts  */
 .last-part{
